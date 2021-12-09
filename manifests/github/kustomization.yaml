@@ -9,5 +9,5 @@ resources:
 - manifests/backend/service-backend.yaml
 images:
 - name: IMAGE_PLACEHOLDER
-  newName: jylhakos/todo-backend-db
-  newTag: ba724482dca16e7fe4bd7d00edde78035927cac5
+  newName: jylhakos/kube-cluster-todos
+  newTag: cc5e0ebce4d2823089d6788a85f1b5344cf583a7
