@@ -26,7 +26,7 @@ jobs:
     - name: Build and Push
       uses: docker/build-push-action@v2
       with:
-        context: ./todos-backend-db
+        context: ./todo-backend-db
         push: true
         tags: jylhakos/kube-cluster-todos:${{ github.sha }}
 
