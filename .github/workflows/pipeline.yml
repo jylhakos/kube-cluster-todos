@@ -1,17 +1,12 @@
 # This is a workflow to with Github Actions
-
-name: Release kube-cluster-todos
+name: Release kube-cluster-dwk
 
 on:
   push:
     branches:
       - main
     paths:
-      -	'todo-backend-db/'
-      - 'manifests/github'
-      - 'manifests/volume'
-      - 'manifests/db'
-      - 'manifests/backend'
+      - 'todo-backend-db/**'
       - 'manifests/**'
       - '.github/workflows/pipeline.yml'
 
