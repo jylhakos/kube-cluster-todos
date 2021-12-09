@@ -1,5 +1,5 @@
 # This is a workflow to with Github Actions
-name: Release kube-cluster-dwk
+name: Release kube-cluster-todos
 
 on:
   push:
