@@ -44,7 +44,7 @@ jobs:
 
     # Update yamls
     - name: Update yamls
-      working-directory: manifests
+      working-directory: manifests/github
       run: |-
         kustomize edit set image IMAGE_PLACEHOLDER=jylhakos/kube-cluster-todos:${{ github.sha }}
 
