@@ -8,6 +8,6 @@ spec:
     kind: GitRepository
     name: todos-repo
   interval: 10m
-  path: ./kube-cluster-todos/manifests/**/*
+  path: ./manifests/**/*
   prune: true
   validation: client
