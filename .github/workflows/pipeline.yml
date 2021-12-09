@@ -7,7 +7,7 @@ on:
     branches:
       - main
     paths:
-      -	'todo-backend-db/**'
+      -	'todo-backend-db/'
       - 'manifests/github'
       - 'manifests/volume'
       - 'manifests/db'
