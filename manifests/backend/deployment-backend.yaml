@@ -34,9 +34,9 @@ spec:
               value: postgres
             - name: NATS_URL
               value: nats://todos-nats:4222
-          envFrom:
-            - configMapRef:
-                name: app-db-env
+          #envFrom:
+          #  - configMapRef:
+          #      name: app-db-env
           readinessProbe:
             initialDelaySeconds: 15
             periodSeconds: 30
