@@ -10,4 +10,4 @@ resources:
 images:
 - name: IMAGE_PLACEHOLDER
   newName: jylhakos/todo-backend-db
-  newTag: fdafd7088d04892815ed037cf30ca4f61c7af2f7
+  newTag: ba724482dca16e7fe4bd7d00edde78035927cac5
